@@ -6,6 +6,20 @@
     padding-left: 15px;
 }
 
+.navbar-brand {
+   color: gray;
+   font-size: 25px;
+   list-style: none;    
+   text-decoration: none;
+}
+.img-i {
+    padding-top: 80px;
+    padding-left: 30px;
+}
+
+body {
+    padding-left: 30px;
+}
 .navbar {
     display: flex;
     align-items: center;
@@ -54,4 +68,76 @@
 .navbar-nav li a:hover {
     color: grey;
     opacity: 1;
+}
+.contact-form {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -25px;
+    margin-right: -25px;
+}
+
+.contact-form__info,
+.contact-form__form {
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.contact-form__info {
+    order: -1;
+    margin-bottom: 30px;
+}
+
+.form-control {
+    width: 100%;
+    font-size: 16px;
+    background-color: #fcfcfc;
+    padding: 5px 15px;
+    border-radius: 6px;
+    border: 1px solid #ececec;
+    -webkit-appearance: none;
+}
+
+.form-control:not(textarea) {
+    height: 44px;
+}
+
+textarea.form-control {
+    padding-top: 10px;
+}
+
+.form-layout {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+[class*='form-col'] {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 15px;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 42px;
+    border-radius: 6px;
+    padding: 5px 35px;
+    transition: 0.1s linear;
+}
+
+.btn-primary {
+    background-color: #4a90e2;
+    color: #fff;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.btn-primary:hover {
+    background-color: #609de6;
+    transform: translate(0, -2px, 0);
 }
